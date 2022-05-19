@@ -13,5 +13,73 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\sword_refer_to_offer">
+      <UniqueIdentifier>{9c28bd11-36ef-479d-a3bf-74de045ed44e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\sword_refer_to_offer\simple">
+      <UniqueIdentifier>{f9e3ce38-2c7a-4e40-ab4f-11551faf71eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\sword_refer_to_offer\middle">
+      <UniqueIdentifier>{a35cf1a4-fa75-480b-937a-97a71b1dee20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\telcent">
+      <UniqueIdentifier>{abb4f9dd-d21e-4ab6-8fc9-0c06c8103179}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\telcent\difficult">
+      <UniqueIdentifier>{6b66ca75-9dec-4c75-8f3d-058addc71604}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\telcent\middle">
+      <UniqueIdentifier>{f4a3f43b-cdac-4414-9b91-a468925db23b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\telcent\simple">
+      <UniqueIdentifier>{1c1d0cce-fa21-470c-a5f0-cc15a3775c06}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="mian.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CQueue.cpp">
+      <Filter>源文件\sword_refer_to_offer\simple</Filter>
+    </ClCompile>
+    <ClCompile Include="MinStack.cpp">
+      <Filter>源文件\sword_refer_to_offer\simple</Filter>
+    </ClCompile>
+    <ClCompile Include="reverseLink.cpp">
+      <Filter>源文件\sword_refer_to_offer\simple</Filter>
+    </ClCompile>
+    <ClCompile Include="tail_end_link.cpp">
+      <Filter>源文件\sword_refer_to_offer\simple</Filter>
+    </ClCompile>
+    <ClCompile Include="randonLinkCopy.cpp">
+      <Filter>源文件\sword_refer_to_offer\middle</Filter>
+    </ClCompile>
+    <ClCompile Include="SpaceTo20.cpp">
+      <Filter>源文件\sword_refer_to_offer\simple</Filter>
+    </ClCompile>
+    <ClCompile Include="FrontToEnd.cpp">
+      <Filter>源文件\sword_refer_to_offer\simple</Filter>
+    </ClCompile>
+    <ClCompile Include="MiddleNumber.cpp">
+      <Filter>源文件\telcent\difficult</Filter>
+    </ClCompile>
+    <ClCompile Include="HuiWen.cpp">
+      <Filter>源文件\telcent\middle</Filter>
+    </ClCompile>
+    <ClCompile Include="ReverseInt.cpp">
+      <Filter>源文件\telcent\middle</Filter>
+    </ClCompile>
+    <ClCompile Include="StringToInt.cpp">
+      <Filter>源文件\telcent\middle</Filter>
+    </ClCompile>
+    <ClCompile Include="PalindromeNumber.cpp">
+      <Filter>源文件\telcent\simple</Filter>
+    </ClCompile>
+    <ClCompile Include="MaxWaterBottle.cpp">
+      <Filter>源文件\telcent\middle</Filter>
+    </ClCompile>
+    <ClCompile Include="MaxLongCommonPre.cpp">
+      <Filter>源文件\telcent\simple</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

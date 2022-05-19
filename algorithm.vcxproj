@@ -123,6 +123,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CQueue.cpp" />
+    <ClCompile Include="FrontToEnd.cpp" />
+    <ClCompile Include="HuiWen.cpp" />
+    <ClCompile Include="MaxLongCommonPre.cpp" />
+    <ClCompile Include="MaxWaterBottle.cpp" />
+    <ClCompile Include="mian.cpp" />
+    <ClCompile Include="MiddleNumber.cpp" />
+    <ClCompile Include="MinStack.cpp" />
+    <ClCompile Include="PalindromeNumber.cpp" />
+    <ClCompile Include="randonLinkCopy.cpp" />
+    <ClCompile Include="ReverseInt.cpp" />
+    <ClCompile Include="reverseLink.cpp" />
+    <ClCompile Include="SpaceTo20.cpp" />
+    <ClCompile Include="StringToInt.cpp" />
+    <ClCompile Include="tail_end_link.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
