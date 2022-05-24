@@ -81,5 +81,107 @@
     <ClCompile Include="MaxLongCommonPre.cpp">
       <Filter>源文件\telcent\simple</Filter>
     </ClCompile>
+    <ClCompile Include="repeatNumber.cpp">
+      <Filter>源文件\sword_refer_to_offer\simple</Filter>
+    </ClCompile>
+    <ClCompile Include="numberTimes.cpp">
+      <Filter>源文件\sword_refer_to_offer\simple</Filter>
+    </ClCompile>
+    <ClCompile Include="MissingNumber.cpp">
+      <Filter>源文件\sword_refer_to_offer\simple</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreeSum.cpp">
+      <Filter>源文件\telcent\middle</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreeSumCloset.cpp">
+      <Filter>源文件\telcent\middle</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectiveParenthesis.cpp">
+      <Filter>源文件\telcent\simple</Filter>
+    </ClCompile>
+    <ClCompile Include="OrderedLink.cpp">
+      <Filter>源文件\telcent\simple</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoveRepeatNumber.cpp">
+      <Filter>源文件\telcent\simple</Filter>
+    </ClCompile>
+    <ClCompile Include="FindNumberIn2DArray.cpp">
+      <Filter>源文件\sword_refer_to_offer\middle</Filter>
+    </ClCompile>
+    <ClCompile Include="MinRotateArrayNumber.cpp">
+      <Filter>源文件\sword_refer_to_offer\simple</Filter>
+    </ClCompile>
+    <ClCompile Include="FirstUniqueChar.cpp">
+      <Filter>源文件\sword_refer_to_offer\simple</Filter>
+    </ClCompile>
+    <ClCompile Include="SearchRotateArray.cpp">
+      <Filter>源文件\telcent\middle</Filter>
+    </ClCompile>
+    <ClCompile Include="MultipyString.cpp">
+      <Filter>源文件\telcent\middle</Filter>
+    </ClCompile>
+    <ClCompile Include="MergetKLink.cpp">
+      <Filter>源文件\telcent\difficult</Filter>
+    </ClCompile>
+    <ClCompile Include="UpDownTree.cpp">
+      <Filter>源文件\sword_refer_to_offer\middle</Filter>
+    </ClCompile>
+    <ClCompile Include="UpDownTree_Two.cpp">
+      <Filter>源文件\sword_refer_to_offer\middle</Filter>
+    </ClCompile>
+    <ClCompile Include="UpDownTree_Three.cpp">
+      <Filter>源文件\sword_refer_to_offer\middle</Filter>
+    </ClCompile>
+    <ClCompile Include="Permute.cpp">
+      <Filter>源文件\telcent\middle</Filter>
+    </ClCompile>
+    <ClCompile Include="spiralOrder.cpp">
+      <Filter>源文件\telcent\middle</Filter>
+    </ClCompile>
+    <ClCompile Include="generateSpiralMatrix.cpp">
+      <Filter>源文件\telcent\middle</Filter>
+    </ClCompile>
+    <ClCompile Include="SubTree.cpp">
+      <Filter>源文件\sword_refer_to_offer\simple</Filter>
+    </ClCompile>
+    <ClCompile Include="MirrorTree.cpp">
+      <Filter>源文件\sword_refer_to_offer\simple</Filter>
+    </ClCompile>
+    <ClCompile Include="SymmetricTree.cpp">
+      <Filter>源文件\sword_refer_to_offer\simple</Filter>
+    </ClCompile>
+    <ClCompile Include="RotateLink.cpp">
+      <Filter>源文件\telcent\middle</Filter>
+    </ClCompile>
+    <ClCompile Include="MaxPath.cpp">
+      <Filter>源文件\telcent\middle</Filter>
+    </ClCompile>
+    <ClCompile Include="SubSets.cpp">
+      <Filter>源文件\telcent\middle</Filter>
+    </ClCompile>
+    <ClCompile Include="Fibonacci.cpp">
+      <Filter>源文件\sword_refer_to_offer\simple</Filter>
+    </ClCompile>
+    <ClCompile Include="FrogFloor.cpp">
+      <Filter>源文件\sword_refer_to_offer\simple</Filter>
+    </ClCompile>
+    <ClCompile Include="MaxProfit.cpp">
+      <Filter>源文件\sword_refer_to_offer\middle</Filter>
+    </ClCompile>
+    <ClCompile Include="MergeTwoVector.cpp">
+      <Filter>源文件\telcent\simple</Filter>
+    </ClCompile>
+    <ClCompile Include="MaxTreeDepth.cpp">
+      <Filter>源文件\telcent\simple</Filter>
+    </ClCompile>
+    <ClCompile Include="GrayCode.cpp">
+      <Filter>源文件\telcent\middle</Filter>
+    </ClCompile>
+    <ClCompile Include="MaxProfitTwo.cpp">
+      <Filter>源文件\telcent\middle</Filter>
+    </ClCompile>
+    <ClCompile Include="MaxPathSum.cpp">
+      <Filter>源文件\telcent\difficult</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
