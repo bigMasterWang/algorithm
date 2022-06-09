@@ -34,6 +34,18 @@
     <Filter Include="源文件\telcent\simple">
       <UniqueIdentifier>{1c1d0cce-fa21-470c-a5f0-cc15a3775c06}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\TOP150">
+      <UniqueIdentifier>{39d34482-91ca-46a6-a5f3-1a4e40996287}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\TOP150\simple">
+      <UniqueIdentifier>{1517c103-68df-416e-822a-274ebc9c666e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\TOP150\middle">
+      <UniqueIdentifier>{2b4bd306-b61a-44d8-809b-ee7834b6f047}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\TOP150\difficult">
+      <UniqueIdentifier>{2f145420-742a-4afc-80a9-2109d8665350}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="mian.cpp">
@@ -182,6 +194,264 @@
     </ClCompile>
     <ClCompile Include="MaxPathSum.cpp">
       <Filter>源文件\telcent\difficult</Filter>
+    </ClCompile>
+    <ClCompile Include="MaxSubArray.cpp">
+      <Filter>源文件\sword_refer_to_offer\simple</Filter>
+    </ClCompile>
+    <ClCompile Include="MaxValue.cpp">
+      <Filter>源文件\sword_refer_to_offer\middle</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleNumber.cpp">
+      <Filter>源文件\telcent\simple</Filter>
+    </ClCompile>
+    <ClCompile Include="CycleLink.cpp">
+      <Filter>源文件\telcent\simple</Filter>
+    </ClCompile>
+    <ClCompile Include="DetectCycleLink.cpp">
+      <Filter>源文件\telcent\middle</Filter>
+    </ClCompile>
+    <ClCompile Include="LRUCache.cpp">
+      <Filter>源文件\telcent\middle</Filter>
+    </ClCompile>
+    <ClCompile Include="SortLink.cpp">
+      <Filter>源文件\telcent\middle</Filter>
+    </ClCompile>
+    <ClCompile Include="TelMinStack.cpp">
+      <Filter>源文件\telcent\simple</Filter>
+    </ClCompile>
+    <ClCompile Include="TranslateNumber.cpp">
+      <Filter>源文件\sword_refer_to_offer\middle</Filter>
+    </ClCompile>
+    <ClCompile Include="LengthOfLongestSubStr.cpp">
+      <Filter>源文件\sword_refer_to_offer\middle</Filter>
+    </ClCompile>
+    <ClCompile Include="IntersectionNode.cpp">
+      <Filter>源文件\telcent\simple</Filter>
+    </ClCompile>
+    <ClCompile Include="MajorityElement.cpp">
+      <Filter>源文件\telcent\simple</Filter>
+    </ClCompile>
+    <ClCompile Include="RevertLink.cpp">
+      <Filter>源文件\telcent\simple</Filter>
+    </ClCompile>
+    <ClCompile Include="KBiggest.cpp">
+      <Filter>源文件\telcent\middle</Filter>
+    </ClCompile>
+    <ClCompile Include="ContainDuplicate.cpp">
+      <Filter>源文件\telcent\simple</Filter>
+    </ClCompile>
+    <ClCompile Include="TreeKSmall.cpp">
+      <Filter>源文件\telcent\middle</Filter>
+    </ClCompile>
+    <ClCompile Include="DeleteNode.cpp">
+      <Filter>源文件\sword_refer_to_offer\simple</Filter>
+    </ClCompile>
+    <ClCompile Include="kNodeFromENd.cpp">
+      <Filter>源文件\sword_refer_to_offer\simple</Filter>
+    </ClCompile>
+    <ClCompile Include="PowerOfTwo.cpp">
+      <Filter>源文件\telcent\simple</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonAncestor.cpp">
+      <Filter>源文件\telcent\simple</Filter>
+    </ClCompile>
+    <ClCompile Include="DeleteLinkNode.cpp">
+      <Filter>源文件\telcent\simple</Filter>
+    </ClCompile>
+    <ClCompile Include="ReverseChar.cpp">
+      <Filter>源文件\telcent\simple</Filter>
+    </ClCompile>
+    <ClCompile Include="ReverseWords.cpp">
+      <Filter>源文件\telcent\simple</Filter>
+    </ClCompile>
+    <ClCompile Include="MulExceptSelf.cpp">
+      <Filter>源文件\telcent\middle</Filter>
+    </ClCompile>
+    <ClCompile Include="LowestCommonAncestor.cpp">
+      <Filter>源文件\telcent\middle</Filter>
+    </ClCompile>
+    <ClCompile Include="MergeTwoLink.cpp">
+      <Filter>源文件\sword_refer_to_offer\simple</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonLinkNode.cpp">
+      <Filter>源文件\sword_refer_to_offer\simple</Filter>
+    </ClCompile>
+    <ClCompile Include="TwoSum.cpp">
+      <Filter>源文件\TOP150\simple</Filter>
+    </ClCompile>
+    <ClCompile Include="NoRepeatLongestStr.cpp">
+      <Filter>源文件\TOP150\middle</Filter>
+    </ClCompile>
+    <ClCompile Include="MatchPattern.cpp">
+      <Filter>源文件\TOP150\difficult</Filter>
+    </ClCompile>
+    <ClCompile Include="ExchangeOddEven.cpp">
+      <Filter>源文件\sword_refer_to_offer\simple</Filter>
+    </ClCompile>
+    <ClCompile Include="TwoSum40.cpp">
+      <Filter>源文件\sword_refer_to_offer\simple</Filter>
+    </ClCompile>
+    <ClCompile Include="ReverseWordsTwo.cpp">
+      <Filter>源文件\sword_refer_to_offer\simple</Filter>
+    </ClCompile>
+    <ClCompile Include="BoardWord.cpp">
+      <Filter>源文件\sword_refer_to_offer\middle</Filter>
+    </ClCompile>
+    <ClCompile Include="MovingCount.cpp">
+      <Filter>源文件\sword_refer_to_offer\middle</Filter>
+    </ClCompile>
+    <ClCompile Include="TreePathSum.cpp">
+      <Filter>源文件\sword_refer_to_offer\middle</Filter>
+    </ClCompile>
+    <ClCompile Include="TreeToLink.cpp">
+      <Filter>源文件\sword_refer_to_offer\middle</Filter>
+    </ClCompile>
+    <ClCompile Include="KLarggest.cpp">
+      <Filter>源文件\sword_refer_to_offer\middle</Filter>
+    </ClCompile>
+    <ClCompile Include="RomanToInt.cpp">
+      <Filter>源文件\TOP150\simple</Filter>
+    </ClCompile>
+    <ClCompile Include="ListToMinNumber.cpp">
+      <Filter>源文件\sword_refer_to_offer\middle</Filter>
+    </ClCompile>
+    <ClCompile Include="IsStraight.cpp">
+      <Filter>源文件\sword_refer_to_offer\simple</Filter>
+    </ClCompile>
+    <ClCompile Include="PhoneNumberCombine.cpp">
+      <Filter>源文件\TOP150\middle</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoveNFromEnd.cpp">
+      <Filter>源文件\TOP150\middle</Filter>
+    </ClCompile>
+    <ClCompile Include="generateParenthesis.cpp">
+      <Filter>源文件\TOP150\middle</Filter>
+    </ClCompile>
+    <ClCompile Include="MergeKLink.cpp">
+      <Filter>源文件\TOP150\difficult</Filter>
+    </ClCompile>
+    <ClCompile Include="StrStr.cpp">
+      <Filter>源文件\TOP150\simple</Filter>
+    </ClCompile>
+    <ClCompile Include="DiviDeWithoutSignal.cpp">
+      <Filter>源文件\TOP150\middle</Filter>
+    </ClCompile>
+    <ClCompile Include="LeastKNumbers.cpp">
+      <Filter>源文件\TOP150\simple</Filter>
+    </ClCompile>
+    <ClCompile Include="MedianFinder.cpp">
+      <Filter>源文件\TOP150\difficult</Filter>
+    </ClCompile>
+    <ClCompile Include="SearchRange.cpp">
+      <Filter>源文件\TOP150\middle</Filter>
+    </ClCompile>
+    <ClCompile Include="ValidSudoku.cpp">
+      <Filter>源文件\TOP150\middle</Filter>
+    </ClCompile>
+    <ClCompile Include="CountAndSay.cpp">
+      <Filter>源文件\TOP150\middle</Filter>
+    </ClCompile>
+    <ClCompile Include="IsMatch.cpp">
+      <Filter>源文件\TOP150\difficult</Filter>
+    </ClCompile>
+    <ClCompile Include="PlusOne.cpp">
+      <Filter>源文件\TOP150\simple</Filter>
+    </ClCompile>
+    <ClCompile Include="MySqrt.cpp">
+      <Filter>源文件\TOP150\simple</Filter>
+    </ClCompile>
+    <ClCompile Include="FirstMissingPositive.cpp">
+      <Filter>源文件\TOP150\difficult</Filter>
+    </ClCompile>
+    <ClCompile Include="TreeDepth.cpp">
+      <Filter>源文件\sword_refer_to_offer\simple</Filter>
+    </ClCompile>
+    <ClCompile Include="BalancedTree.cpp">
+      <Filter>源文件\sword_refer_to_offer\simple</Filter>
+    </ClCompile>
+    <ClCompile Include="RainTrap.cpp">
+      <Filter>源文件\TOP150\difficult</Filter>
+    </ClCompile>
+    <ClCompile Include="MiddleTravel.cpp">
+      <Filter>源文件\TOP150\simple</Filter>
+    </ClCompile>
+    <ClCompile Include="RotateMatrix.cpp">
+      <Filter>源文件\TOP150\middle</Filter>
+    </ClCompile>
+    <ClCompile Include="GroupWords.cpp">
+      <Filter>源文件\TOP150\middle</Filter>
+    </ClCompile>
+    <ClCompile Include="MyPow.cpp">
+      <Filter>源文件\TOP150\middle</Filter>
+    </ClCompile>
+    <ClCompile Include="SpecialSum.cpp">
+      <Filter>源文件\sword_refer_to_offer\middle</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonAncestorTwo.cpp">
+      <Filter>源文件\sword_refer_to_offer\simple</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonAnscent.cpp">
+      <Filter>源文件\sword_refer_to_offer\middle</Filter>
+    </ClCompile>
+    <ClCompile Include="MyAdd.cpp">
+      <Filter>源文件\sword_refer_to_offer\simple</Filter>
+    </ClCompile>
+    <ClCompile Include="OneNumber.cpp">
+      <Filter>源文件\sword_refer_to_offer\simple</Filter>
+    </ClCompile>
+    <ClCompile Include="RebuildTree.cpp">
+      <Filter>源文件\sword_refer_to_offer\middle</Filter>
+    </ClCompile>
+    <ClCompile Include="MoreNumber.cpp">
+      <Filter>源文件\sword_refer_to_offer\simple</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstructArr.cpp">
+      <Filter>源文件\sword_refer_to_offer\middle</Filter>
+    </ClCompile>
+    <ClCompile Include="MyPow2.cpp">
+      <Filter>源文件\sword_refer_to_offer\middle</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleNumberTwo.cpp">
+      <Filter>源文件\sword_refer_to_offer\middle</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleNumberThree.cpp">
+      <Filter>源文件\sword_refer_to_offer\middle</Filter>
+    </ClCompile>
+    <ClCompile Include="VerifyPostOrder.cpp">
+      <Filter>源文件\sword_refer_to_offer\middle</Filter>
+    </ClCompile>
+    <ClCompile Include="CanJump.cpp">
+      <Filter>源文件\sword_refer_to_offer\middle</Filter>
+    </ClCompile>
+    <ClCompile Include="CutingRope.cpp">
+      <Filter>源文件\sword_refer_to_offer\middle</Filter>
+    </ClCompile>
+    <ClCompile Include="LastRemaining.cpp">
+      <Filter>源文件\sword_refer_to_offer\simple</Filter>
+    </ClCompile>
+    <ClCompile Include="ContinueSequence.cpp">
+      <Filter>源文件\sword_refer_to_offer\simple</Filter>
+    </ClCompile>
+    <ClCompile Include="SpiralOrderTwo.cpp">
+      <Filter>源文件\sword_refer_to_offer\simple</Filter>
+    </ClCompile>
+    <ClCompile Include="ValidateStackSequence.cpp">
+      <Filter>源文件\sword_refer_to_offer\middle</Filter>
+    </ClCompile>
+    <ClCompile Include="MergeVector.cpp">
+      <Filter>源文件\TOP150\middle</Filter>
+    </ClCompile>
+    <ClCompile Include="SetZeros.cpp">
+      <Filter>源文件\TOP150\middle</Filter>
+    </ClCompile>
+    <ClCompile Include="ValidBST.cpp">
+      <Filter>源文件\TOP150\middle</Filter>
+    </ClCompile>
+    <ClCompile Include="ExistWords.cpp">
+      <Filter>源文件\TOP150\middle</Filter>
+    </ClCompile>
+    <ClCompile Include="IsASymmetric.cpp">
+      <Filter>源文件\TOP150\middle</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -1,3 +1,6 @@
 ﻿  mian.cpp
-E:\VSProjects\algorithm\mian.cpp(14,21): warning C4018: “<”: 有符号/无符号不匹配
+E:\VSProjects\algorithm\mian.cpp(55,18): warning C4018: “>=”: 有符号/无符号不匹配
+E:\VSProjects\algorithm\mian.cpp(55,48): warning C4018: “>=”: 有符号/无符号不匹配
+E:\VSProjects\algorithm\mian.cpp(72,21): warning C4018: “<”: 有符号/无符号不匹配
+E:\VSProjects\algorithm\mian.cpp(74,22): warning C4018: “<”: 有符号/无符号不匹配
   algorithm.vcxproj -> E:\VSProjects\algorithm\Debug\algorithm.exe
