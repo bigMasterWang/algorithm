@@ -158,6 +158,7 @@
     <ClCompile Include="IntersectionNode.cpp" />
     <ClCompile Include="IsASymmetric.cpp" />
     <ClCompile Include="IsMatch.cpp" />
+    <ClCompile Include="IsNumber.cpp" />
     <ClCompile Include="IsStraight.cpp" />
     <ClCompile Include="KBiggest.cpp" />
     <ClCompile Include="KLarggest.cpp" />
@@ -237,6 +238,7 @@
     <ClCompile Include="SpiralOrderTwo.cpp" />
     <ClCompile Include="StringToInt.cpp" />
     <ClCompile Include="StrStr.cpp" />
+    <ClCompile Include="StrToInt.cpp" />
     <ClCompile Include="SubSets.cpp" />
     <ClCompile Include="SubTree.cpp" />
     <ClCompile Include="SymmetricTree.cpp" />

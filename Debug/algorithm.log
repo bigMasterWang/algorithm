@@ -1,6 +1,12 @@
 ﻿  mian.cpp
-E:\VSProjects\algorithm\mian.cpp(55,18): warning C4018: “>=”: 有符号/无符号不匹配
-E:\VSProjects\algorithm\mian.cpp(55,48): warning C4018: “>=”: 有符号/无符号不匹配
-E:\VSProjects\algorithm\mian.cpp(72,21): warning C4018: “<”: 有符号/无符号不匹配
-E:\VSProjects\algorithm\mian.cpp(74,22): warning C4018: “<”: 有符号/无符号不匹配
+E:\VSProjects\algorithm\mian.cpp(31,21): warning C4018: “<”: 有符号/无符号不匹配
+E:\VSProjects\algorithm\mian.cpp(39,21): warning C4018: “<”: 有符号/无符号不匹配
+E:\VSProjects\algorithm\mian.cpp(52,11): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+  StrToInt.cpp
+E:\VSProjects\algorithm\mian.cpp(53,10): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+E:\VSProjects\algorithm\StrToInt.cpp(25,21): warning C4018: “<”: 有符号/无符号不匹配
+E:\VSProjects\algorithm\StrToInt.cpp(33,21): warning C4018: “<”: 有符号/无符号不匹配
+E:\VSProjects\algorithm\StrToInt.cpp(46,11): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+  正在生成代码...
+E:\VSProjects\algorithm\StrToInt.cpp(47,10): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
   algorithm.vcxproj -> E:\VSProjects\algorithm\Debug\algorithm.exe

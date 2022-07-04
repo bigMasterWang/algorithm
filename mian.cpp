@@ -9,85 +9,52 @@
 #include<stack>
 using namespace std;
 
-/*
-1  2  3  4
-5  6  7  8
-9  10 11 12
-*/
-
-/*
-		if (board[i][j] != word[0])
-			return false;
-		board[i][j] = '\0';
-		int wordIndex = 1;
-		while (wordIndex < word.size())
-		{
-			//按照上下左右的顺序去做
-			if (i - 1 >= 0 && board[i - 1][j] && board[i - 1][j] == word[wordIndex])
-			{
-				wordIndex++;
-				board[i - 1][j] = '\0';
-			}
-			else if (j + 1 < board[i].size() && board[i][j + 1] && board[i][j + 1] == word[wordIndex])
-			{
-				wordIndex++;
-				board[i][j + 1] = '\0';
-			}
-			else if (i + 1 < board.size() && board[i + 1][j] && board[i + 1][j] == word[wordIndex])
-			{
-				wordIndex++;
-				board[i + 1][j] = '\0';
-			}
-			else if (j - 1 >= 0 && board[i][j - 1] && board[i][j - 1] == word[wordIndex])
-			{
-				wordIndex++;
-				board[i][j - 1] = '\0';
-			}
-			else
-				break;
-		}
-		return (wordIndex == word.size());
-*/
 class Solution {
 private:
-	bool findWords(vector<vector<char>>& board, string word, int i, int j, int wordIndex)
+	bool isNumber(char x)
 	{
-		if (i < 0 || i >= board.size() || j < 0 || j >= board[i].size())
-			return false;
-		if (!board[i][j] || board[i][j] != word[wordIndex])
-			return false;
-		wordIndex++;
-		if (wordIndex == word.size())
-			return true;
-		char save = board[i][j];
-		board[i][j] = '\0';
-		bool flag =
-			findWords(board, word, i - 1, j, wordIndex) ||
-			findWords(board, word, i + 1, j, wordIndex) ||
-			findWords(board, word, i, j - 1, wordIndex) ||
-			findWords(board, word, i, j + 1, wordIndex);
-		board[i][j] = save;
-		return flag;
+		return (x - '0' >= 0 && x - '0' <= 9);
 	}
 public:
-	bool exist(vector<vector<char>>& board, string word) {
-		for (int i = 0; i < board.size(); i++)
+	int strToInt(string str) {
+		str.erase(0, str.find_first_not_of(' '));
+		string num = "";
+		bool negative = false;
+		if (str[0] == '-')
+			negative = true;
+		else if (str[0] == '+')
+			negative = false;
+		else if (isNumber(str[0]))
+			num += str[0];
+		else
+			return 0;
+		for (int i = 1; i < str.size(); i++)
 		{
-			for (int j = 0; j < board[0].size(); j++)
-			{
-				if (findWords(board, word, i, j, 0))
-					return true;
-			}
+			if (!isNumber(str[i]))
+				break;
+			num += str[i];
 		}
-		return false;
+
+		long long res = 0;
+		for (int i = 0; i < num.size(); i++)
+		{
+			res *= 10;
+			res += (num[i] - '0');
+			if (negative)
+			{
+				if (-res <= INT_MIN)
+					return INT_MIN;
+			}
+			else if (res >= INT_MAX)
+				return INT_MAX;
+		}
+		if (negative)
+			return -res;
+		return res;
 	}
 };
 int main()
 {
 	Solution s;
-	vector<vector<char>>a;
-	a.push_back({ 'A', 'B', 'C', 'E' });
-	a.push_back({ 'S', 'F', 'C', 'S' });
-	a.push_back({ 'A', 'D', 'E', 'E' });
-	std::cout << s.exist(a, "ABCB");
+	std::cout << s.strToInt("-0012a42");
 }

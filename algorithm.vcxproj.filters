@@ -453,5 +453,11 @@
     <ClCompile Include="IsASymmetric.cpp">
       <Filter>源文件\TOP150\middle</Filter>
     </ClCompile>
+    <ClCompile Include="IsNumber.cpp">
+      <Filter>源文件\TOP150\middle</Filter>
+    </ClCompile>
+    <ClCompile Include="StrToInt.cpp">
+      <Filter>源文件\TOP150\middle</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
